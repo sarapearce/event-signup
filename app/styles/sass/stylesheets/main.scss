@@ -10,10 +10,10 @@
 // 2. Vendors
 @import
   'vendor/normalize',
-  /*'vendor/breakpoints',*/
+  // /*'vendor/breakpoints',*/
   'vendor/bourbon/core/bourbon',
   'vendor/neat/app/assets/stylesheets/neat';
-  
+
 // 3. Base stuff
 @import
   'base/base',

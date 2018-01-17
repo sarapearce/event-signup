@@ -1,0 +1,46 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+.gs-header-menu {
+    /*border: 2px solid black;*/
+    height: 80px;
+    @include outer-container(100%);
+    @include span-columns(12);
+    @include omega();
+}
+.gs-header-menu ul {
+    display: inline-flex;
+    list-style: none;
+    height: 80px;
+    color: black;
+    float: right;
+}
+
+.gs-header-menu li {
+    /*border: 2px solid black;*/
+    @include span-columns(4 of 12);
+    @include omega(n);
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+}
+
+/*for some reason, vertical-align: middle is not working. hackey solution -scp*/
+/*some styles for this group are in the html as they are li specific*/
+.gs-header-menu li h5 {
+    margin-top: 17px;
+}
+
+
+/*TODO: this menu text does not fit its container*/
+#contact-us {
+    width: 20px;
+}
+
+.gs-logo {
+    /*border: 2px solid black;*/
+    background-image: url("http://localhost:8888/glenscrews-testing/src/wp-content/uploads/2016/10/gsc-arrow-logo.png");
+    height: 94px;
+}
+

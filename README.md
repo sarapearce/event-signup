@@ -27,7 +27,7 @@ npm install -g angular5, angular-cli, TypeScript
 git clone myrepo.git
 ```
 
-I installed into hostlistening location in my VM, so I was able to access via localhost. Be sure to have some server environment running so that the website can be properly viewed. Both domain.com/index.html and domain.com/main.html default to domain.com.
+I installed into a hostlistening location in my VM, so I was able to access via localhost. Be sure to have some server environment running so that the website can be properly viewed. Both domain.com/index.html and domain.com/main.html default to domain.com.
 
 You can see the site live at: myurl.com
 

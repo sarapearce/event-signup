@@ -1,14 +1,3 @@
-import {
-    TestBed
-} from '@angular/core/testing';
-
-import {
-    FormGroup,
-    ReactiveFormsModule
-} from '@angular/forms';
-
-import { DynamicFormComponent } from './dynamic-form.component';
-
 'use strict';
 
 describe('Controller: SignupCtrl', function () {

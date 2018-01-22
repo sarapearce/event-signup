@@ -42,6 +42,8 @@ Run `grunt` for building and `grunt serve` for preview.
 
 Running `grunt test` will run the unit tests with karma.
 
+Karma setup: http://karma-runner.github.io/2.0/intro/installation.html
+
 ## Running the tests
 
 TODO: Explain how to run the automated tests for this system
@@ -68,17 +70,17 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [RxJs]() - State handling and observables
-* [TypeScript]() - superset of JS, compiler
-* [Angular5]() - Used to generate RSS Feeds
+* [RxJs](http://reactivex.io/rxjs/) - State handling and observables
+* [TypeScript](https://www.typescriptlang.org) - superset of JS, compiler
+* [Angular5](http://angularjs.blogspot.com/2016/10/versioning-and-releasing-angular.html) - JS Framework
 
 ## Versioning
 
-I use [Git](https://github.com) for versioning.
+This project can be found publically at: https://github.com/sarapearce/event-signup
 
 ## Authors
 
-* **Sara Pearce** - [LeftTurnOnly]()
+* **Sara Pearce** - [herself](http://sarapearce.net)
 
 ## License
 

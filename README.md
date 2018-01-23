@@ -18,21 +18,22 @@ TypeScript
 RxJS
 
 ```
-npm install -g angular5, angular-cli, TypeScript
+npm install -g angular5
+npm install -g angular-cli
+npm install -g TypeScript
 ```
 
 ### Installing
 
 ```
 git clone myrepo.git
+
+cd flosports
+
+grunt
 ```
 
-I installed into a hostlistening location in my VM, so I was able to access via localhost. Be sure to have some server environment running so that the website can be properly viewed. Both domain.com/index.html and domain.com/main.html default to domain.com.
-
-You can see the site live at: myurl.com
-
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.16.0.
+Once the build process is ready, you can view the site at http://localhost:9001
 
 ## Build & development
 
@@ -76,7 +77,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Versioning
 
-This project can be found publically at: https://github.com/sarapearce/event-signup
+This project can be found publicly at: https://github.com/sarapearce/event-signup
 
 ## Authors
 
